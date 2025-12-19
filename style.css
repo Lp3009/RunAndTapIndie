@@ -1,0 +1,33 @@
+body {
+  margin: 0;
+  background: #080812;
+  color: white;
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+canvas {
+  display: block;
+  margin: 10px auto;
+  background: #0b0b1f;
+  border: 2px solid #00f2ff;
+}
+
+button {
+  margin: 6px;
+  padding: 10px 14px;
+  border: none;
+  border-radius: 6px;
+  background: #00f2ff;
+  font-weight: bold;
+}
+
+.hidden {
+  display: none;
+}
+
+#titleScreen, #pauseMenu, #settings {
+  position: absolute;
+  inset: 0;
+  background: rgba(0,0,0,0.85);
+}
