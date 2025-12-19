@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Neon Run: Corefall</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div id="titleScreen">
+  <h1>⚡ Neon Run: Corefall ⚡</h1>
+  <button onclick="startGame()">Start Game</button>
+  <button onclick="toggleSettings()">Settings</button>
+</div>
+
+<div id="settings" class="hidden">
+  <h2>Settings</h2>
+  <button onclick="toggleSound()">Toggle Sound</button>
+  <button onclick="toggleSettings()">Back</button>
+</div>
+
+<canvas id="game" width="420" height="230"></canvas>
+
+<div id="pauseMenu" class="hidden">
+  <h2>Paused</h2>
+  <button onclick="resumeGame()">Resume</button>
+</div>
+
+<script src="save.js"></script>
+<script src="sprites.js"></script>
+<script src="input.js"></script>
+<script src="player.js"></script>
+<script src="boss.js"></script>
+<script src="ui.js"></script>
+<script src="main.js"></script>
+
+</body>
+</html>
